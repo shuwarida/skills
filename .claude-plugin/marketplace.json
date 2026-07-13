@@ -1,0 +1,13 @@
+{
+  "name": "shuwarida-skills",
+  "owner": {
+    "name": "shuwarida"
+  },
+  "plugins": [
+    {
+      "name": "shuwarida-skills",
+      "source": "./",
+      "description": "Agent skills: pirate-mode (fast, no-bureaucracy dev workflow) and design-psychology (pre-design interview grounded in behavioral psychology)."
+    }
+  ]
+}
