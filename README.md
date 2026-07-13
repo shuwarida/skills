@@ -2,10 +2,12 @@
 
 A collection of [Agent Skills](https://docs.claude.com/en/docs/claude-code/skills) for Claude Code and other agents.
 
-| Skill | What it does |
-|-------|--------------|
-| [`pirate-mode`](skills/pirate-mode/SKILL.md) | Fast, no-bureaucracy development mode. Say "pirate mode" and Claude ships by the shortest honest route — pirate tone included. |
-| [`design-psychology`](skills/design-psychology/SKILL.md) | A pre-design interview grounded in behavioral psychology: perception gap, smart defaults, goal gradient, loss aversion and more. Claude grills you until the design brief actually makes sense. |
+| Skill | What it does | Docs |
+|-------|--------------|------|
+| [`pirate-mode`](skills/pirate-mode/SKILL.md) | Fast, no-bureaucracy development mode. Say "pirate mode" and Claude ships by the shortest honest route — pirate tone included. | [docs/pirate-mode.md](docs/pirate-mode.md) |
+| [`design-psychology`](skills/design-psychology/SKILL.md) | A pre-design interview grounded in behavioral psychology: perception gap, smart defaults, goal gradient, loss aversion and more. Claude grills you until the design brief actually makes sense. | [docs/design-psychology.md](docs/design-psychology.md) |
+
+Every skill has a doc in [`docs/`](docs/) (`docs/<skill-name>.md`): quickstart, what it does, and when to reach for it.
 
 ## Quickstart with npx
 
@@ -38,6 +40,9 @@ Both skills become available immediately — `pirate-mode` triggers on request (
 skills/
   pirate-mode/SKILL.md
   design-psychology/SKILL.md
+docs/
+  pirate-mode.md
+  design-psychology.md
 .claude-plugin/marketplace.json
 ```
 
