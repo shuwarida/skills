@@ -7,7 +7,7 @@
     {
       "name": "shuwarida-skills",
       "source": "./",
-      "description": "Agent skills: pirate-mode (fast, no-bureaucracy dev workflow) and design-psychology (pre-design interview grounded in behavioral psychology)."
+      "description": "Agent skills: pirate-mode (fast, no-bureaucracy dev workflow), design-thinking (pre-brief design interview) and design-ux (behavioral-psychology interview for screens and flows)."
     }
   ]
 }
